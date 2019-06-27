@@ -13,7 +13,7 @@ def factorial(n: Int): Int =
 
 * Fill in the first parameter in a function call "loop"
 
-Tail recursion version:
+## Tail recursion version:
 
 ```scala
 def factorial(n: Int): Int = {
@@ -25,16 +25,16 @@ def factorial(n: Int): Int = {
 ```
 
 
-Solution:
+## Solution:
 
-if-else conditional:
+### if-else conditional:
 
 ```scala
 if (n == 0) acc
 else loop(acc * n, n-1)
 ```
 
-Question marks need to be replaced with 1
+### Question marks need to be replaced with 1
 ```scala
 loop(1, n)
 ```
