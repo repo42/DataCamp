@@ -16,25 +16,25 @@ def factorial(n: Int): Int =
 Tail recursion version:
 
 ```scala
-	def factorial(n: Int): Int = {
-		def loop(acc: Int, n: Int): Int =
-			// Add your if-else conditional here
+def factorial(n: Int): Int = {
+	def loop(acc: Int, n: Int): Int =
+		// Add your if-else conditional here
 
-		loop(???, n) 
-	}
+	loop(???, n) 
+}
 ```
 
 
 Solution:
 
-	if-else conditional:
+if-else conditional:
 
-	```scala
-			if (n == 0) acc
-			else loop(acc * n, n-1)
-	```
+```scala
+if (n == 0) acc
+else loop(acc * n, n-1)
+```
 
-	Question marks need to be replaced with 1
-	```scala
-	loop(1, n)
-	```
+Question marks need to be replaced with 1
+```scala
+loop(1, n)
+```
