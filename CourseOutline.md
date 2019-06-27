@@ -14,7 +14,7 @@
 ## Chapter 2 - Tools
 
 * __Lesson 2.1 - Installing Scala on Windows, Linux and Mac OS X (JDK, IDE IntelliJ, sbt)__
-    * _Learning objective:_ Learner will be able to install and set up the neceserry tools to get started with programming in Scala
+    * _Learning objective:_ Learner will be able to install and set up the necessary tools to get started with programming in Scala.
 * __Lesson 2.2 - IDE, REPL or Scastie__
     * _Learning objective:_ Learner will be able to 
       * compare different Scala programming environments;
